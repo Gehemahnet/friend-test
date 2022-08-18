@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Co Headline Corp";
+  src: url("CoHeadlineCorp-Light.eot");
+  src: local("Co Headline Corp Light"), url("CoHeadlineCorp-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Co Headline Corp";
+  src: url("CoHeadlineCorp-Bold.eot");
+  src: local("Co Headline Corp Bold"), url("CoHeadlineCorp-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Co Headline Corp";
+  src: url("CoHeadlineCorp-Regular.eot");
+  src: local("Co Headline Corp"), url("CoHeadlineCorp-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.react-tel-input {
+  margin-bottom: 16px;
+  position: relative;
+}
+.react-tel-input > .form-control {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 16px 80px !important;
+  border: 1px solid #7C7C7C !important;
+  border-radius: 100px !important;
+  font-size: 20px !important;
+}
+.react-tel-input > .form-control:focus {
+  outline: 1px solid #50DE97 !important;
+}
+.react-tel-input.flag {
+  padding: 5px 6px !important;
+}
+.react-tel-input .flag-dropdown {
+  position: absolute;
+  top: 33% !important;
+  left: 20px !important;
+  padding: 0 !important;
+  border: none !important;
+  background: none !important;
+  height: 21px !important;
+}
+.react-tel-input .flag-dropdown:focus {
+  background: none !important;
+}
+
+.selected-flag {
+  padding: 0 !important;
+  height: 100% !important;
+}
+
+.arrow {
+  top: 25% !important;
+  margin-top: 0 !important;
+  left: calc(100% + 12px) !important;
+  width: 6px !important;
+  height: 7px !important;
+  background: no-repeat center url("../images/icons/select-dropdown.svg") !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Co Headline Corp", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.wrapper_vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-image {
+  background: url("../images/webp/round.webp");
+  margin-top: 180px;
+  margin-right: 120px;
+}
+.side-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 440px) {
+  .side-image-container {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=App.css.map */

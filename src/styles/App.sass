@@ -1,0 +1,42 @@
+//Fonts
+@import "../fonts/fonts.sass"
+//Libraries
+@import "./lib-styles.sass"
+//General styles
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: "Co Headline Corp", sans-serif
+button
+  cursor: pointer
+a
+  cursor: pointer
+  text-decoration: none
+.wrapper
+  max-width: 1400px
+  margin: 0 auto
+  display: flex
+  justify-content: center
+  &_vertical
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+.side-image
+  background: url("../images/webp/round.webp")
+  margin-top: 180px
+  margin-right: 120px
+  &-container
+    display: flex
+    justify-content: center
+    align-items: center
+
+//Mobile
+@media (max-width: 440px)
+  .side-image-container
+    display: none
+
+
+
+

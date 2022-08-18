@@ -1,5 +1,5 @@
 {
-  "name": "frient-test",
+  "name": "friend-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,11 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-phone-number-input": "^3.2.7",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.54.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -23,6 +27,7 @@
       "react-app/jest"
     ]
   },
+  "proxy": "http://158.160.4.55:49161/v1/",
   "browserslist": {
     "production": [
       ">0.2%",
