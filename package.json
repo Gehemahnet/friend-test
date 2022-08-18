@@ -1,5 +1,6 @@
 {
   "name": "friend-test",
+  "author": "Konstantin Volik, itisbased@yandex.ru",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
